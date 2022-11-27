@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Your basket:</h1>
+    <div class="basket-list">
+        <p class="basket-item" *ngFor="let tour of betterBasket" >
+            <span>{{tour[1]}} x {{tour[0].title}}</span><span>{{tour[1]}} x {{tour[0].price}}€ </span><span>{{tour[1]*tour[0].price}}€</span>
+        </p>
+        <!-- <p *ngFor="let tour of inputBasket" >{{tour.title}}</p> -->
+        <p class="basket-sum">
+            <span><strong>Summary price: </strong></span>
+            <span><strong>{{sumPrice}}€</strong></span>
+        </p>
+    </div>
+    <button class="btn btn-primary" (click)="openMainView()">Open tour list</button>
+</div>

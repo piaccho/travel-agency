@@ -1,0 +1,18 @@
+<div class="container d-flex flex-column justify-content-between">
+    <div class="wrapper"><img class="img-fluid" [src]="tourInput.previewImage" [alt]="tourInput.title+' image'"></div>
+    <h3>{{tourInput.title | uppercase}}</h3>
+    <p class="description">{{tourInput.description}}</p>
+    <p>Destination country: {{tourInput.destinationCountry}}</p>
+    <p>When: {{tourInput.startDate}} - {{tourInput.endDate}}</p>
+    <p>Price: {{tourInput.price}}€ </p>
+    <span class="alert" [ngStyle]="{'background-color': tourAvailableTickets === 0 ? 'red': tourAvailableTickets <= 3 ? '#ff4800': tourAvailableTickets <= 8 ? '#ff9900': 'green'}">Left tickets: {{tourAvailableTickets}}</span>
+    <div class="d-flex flex-row justify-content-between">
+        <button class="btn btn-success" [ngStyle]="{'visibility': tourAvailableTickets === 0 ? 'hidden': 'visible'}" (click)="addTour()">Add to basket</button>
+        <button class="btn btn-warning" [ngStyle]="{'visibility': tourAvailableTickets === tourInput.maxTickets ? 'hidden': 'visible'}" (click)="deleteTour()">Delete from basket</button>
+    </div>
+    <app-reviews></app-reviews>
+    <button class="btn btn-danger" (click)="deleteThisTour()">Delete Tour</button>
+</div>
+
+
+

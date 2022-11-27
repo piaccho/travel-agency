@@ -1,0 +1,110 @@
+[
+    {
+        "title": "Tour to Rome",
+        "destinationCountry": "Italy",
+        "startDate": "2023-06-01",
+        "endDate": "2023-06-14",
+        "price": 200,
+        "maxTickets": 20,
+        "description": "Tour straight to one of the most beautiful city of Italy and even of Europe. As the proverb says: \"all roads lead to Rome\" and so we do. Anticipating the question: yes, you can go to the Colosseum",
+        "previewImage": "assets/img/rome.jpg",
+        "summaryRating": 0,
+        "ratingsNumber": 0
+    },
+    {
+        "title": "Tour to London",
+        "destinationCountry": "United Kingdom",
+        "startDate": "2023-06-07",
+        "endDate": "2023-06-14",
+        "price": 80,
+        "maxTickets": 20,
+        "description": "Have you ever seen Buckingham Palace or Big Ben?. If not, we offer you a chance to visit these places for a decent price. The Empire of Elizabeth II awaits you with open arms.",
+        "previewImage": "assets/img/london.jpg",
+        "summaryRating": 0,
+        "ratingsNumber": 0
+    },
+    {
+        "title": "Tour to Paris",
+        "destinationCountry": "France",
+        "startDate": "2023-06-14",
+        "endDate": "2023-06-21",
+        "price": 80,
+        "maxTickets": 25,
+        "description": "Everyone has heard of the Eiffel Tower, but not everyone has had the opportunity to see it with their own eyes, let alone get at it. Prepare your luggage and fly with us to the most classy France's city with an alluring culture.",
+        "previewImage": "assets/img/paris.jpg",
+        "summaryRating": 0,
+        "ratingsNumber": 0
+    },
+    {
+        "title": "Tour to Barcelona",
+        "destinationCountry": "Spain",
+        "startDate": "2023-06-14",
+        "endDate": "2023-06-28",
+        "price": 240,
+        "maxTickets": 15,
+        "description": "Although corrida is banned in Catalonia, there are still many other fascinating attractions. Travel to Barcelona to see the unfinished but already monumental Sagrada Familia built in the Spanish-Gothic/Catalan-Modernist style - One of the most beautiful temples in the whole world!",
+        "previewImage": "assets/img/barcelona.jpg",
+        "summaryRating": 0,
+        "ratingsNumber": 0
+    },
+    {
+        "title": "Tour to Reykjavík",
+        "destinationCountry": "Iceland",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-14",
+        "price": 200,
+        "maxTickets": 20,
+        "description": "Do you want to relax in a city with refreshing atmosphere accompanied by snow-covered mountains and a calm sea? We can take you to Iceland to place which is among the cleanest, greenest, and safest cities in the world.",
+        "previewImage": "assets/img/reykjavík.jpg",
+        "summaryRating": 0,
+        "ratingsNumber": 0
+    },
+    {
+        "title": "Tour to Santorini",
+        "destinationCountry": "Greece",
+        "startDate": "2023-06-07",
+        "endDate": "2023-06-14",
+        "price": 180,
+        "maxTickets": 10,
+        "description": "An ideal place to spend your summer holidays. Breathtaking panoramas, aesthetic architecture full of azure-white buildings and beaches with beautiful sunsets are the reasons why you should be there",
+        "previewImage": "assets/img/santorini.jpg",
+        "summaryRating": 0,
+        "ratingsNumber": 0
+    },
+    {
+        "title": "Tour to Moscow",
+        "destinationCountry": "Russia",
+        "startDate": "2023-03-14",
+        "endDate": "2023-03-21",
+        "price": 70,
+        "maxTickets": 15,
+        "description": "Rich in history and home to some of the kookiest architecture around. You will visit Kremlin, St. Basil's Cathedral, Red Square, Bolshoi Theatre and many other fascinating places",
+        "previewImage": "assets/img/moscow.jpg",
+        "summaryRating": 0,
+        "ratingsNumber": 0
+    },
+    {
+        "title": "Tour to Cairo",
+        "destinationCountry": "Egypt",
+        "startDate": "2023-06-14",
+        "endDate": "2023-06-21",
+        "price": 250,
+        "maxTickets": 10,
+        "description": "The pyramids, the Sphinx, camels, pharaons and a whole lot of sand. These are the things that first pop into your mind when you think of Egypt - and these are the exact reasons why you should visit this place. A Tour to Cairo - the most beautiful city in Africa - at an attractive price.",
+        "previewImage": "assets/img/cairo.jpg",
+        "summaryRating": 0,
+        "ratingsNumber": 0
+    },
+    {
+        "title": "Tour to Istanbul",
+        "destinationCountry": "Turkey",
+        "startDate": "2023-06-21",
+        "endDate": "2023-06-28",
+        "price": 200,
+        "maxTickets": 15,
+        "description": "Prepare to be awed by Istanbul's magnificent architecture, rich history, and eclectic bazaars as you discover the unmissable highlights of the Old City. You will vist the glorious Hagia Sophia, the ancient Basilica Cistern and many other places",
+        "previewImage": "assets/img/istanbul.jpg",
+        "summaryRating": 0,
+        "ratingsNumber": 0
+    }
+]

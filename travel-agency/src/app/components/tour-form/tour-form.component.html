@@ -1,0 +1,30 @@
+<form [formGroup]="modelForm" (ngSubmit)="onSubmit(modelForm)">
+ <label>Tour name:</label>
+ <input name="title" formControlName="title" >
+ 
+ <label>Destination country:</label>
+ <input name="destinationCountry" formControlName="destinationCountry" >
+ 
+ <label>Start date:</label>
+ <input name="startDate" formControlName="startDate" >
+ 
+ <label>End date:</label>
+ <input name="endDate" formControlName="endDate" >
+ 
+ <label>Price:</label>
+ <input name="price" formControlName="price" >
+ 
+ <label>Max ticket amount:</label>
+ <input name="maxTickets" formControlName="maxTickets" >
+ 
+ <label>Image URL:</label>
+ <!-- Upload File version -->
+ <!-- <input type="file" id="previewImage" name="previewImage" formControlName="previewImage"  accept=".jpg" (change)="onFileSelected($event)"> -->
+  <!-- Type URL version  -->
+ <input name="previewImage" formControlName="previewImage" >
+
+ <label >Description:</label>
+ <textarea class="description" name="description" formControlName="description" ></textarea>
+
+ <button type="submit">Submit</button>
+</form>

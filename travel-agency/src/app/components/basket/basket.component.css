@@ -1,0 +1,13 @@
+h1 {
+    margin: 50px 0
+}
+
+.basket-item, .basket-sum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.basket-list {
+    margin-bottom: 40px;
+}

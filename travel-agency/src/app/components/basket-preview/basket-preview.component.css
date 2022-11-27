@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.item-basket {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+.container {
+    width: 80vw;
+    border: 1px solid grey;
+    border-radius: 15px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    flex: 1
+}
+
+.filters {
+    flex: 8
+}

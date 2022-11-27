@@ -1,0 +1,43 @@
+<div class="container" *ngIf="viewFlag; then mainView else basketView"></div>
+<ng-template #mainView>
+  <div class="preview-basket">
+
+    <div class="basket-button" (click)="toggleBasketPreview($event)" [ngStyle]="{'background-color': basket.length < 10 ? 'red' : 'green'}">
+      <span><img class="basket-icon" src="assets/basket.svg"> {{basket.length}}</span>
+    </div>
+
+    <!-- <app-filters></app-filters> -->
+    <app-basket-preview [ngStyle]="{'display': basketPreviewFlag ? 'block': 'none'}" [inputBasket]="filterBasket(basket)" (openBasketViewFlag)="toggleViewFlag($event)"></app-basket-preview>
+ 
+  </div>
+
+  <div class="form-view">
+    <app-tour-form [ngStyle]="{'display': tourFormFlag ? 'block': 'none'}" (outputTourForm)="addTourToArray($event)"></app-tour-form>
+    <button (click)="toggleTourForm($event)">Add tour</button>
+  </div>
+
+  <h1>Tour list:</h1>
+  <app-filters></app-filters>
+
+  <div class="wrapper">    
+      <!-- <button (click)="deleteTourFromArray(tour)">Delete Tour</button> -->
+      <app-tour-card 
+      *ngFor="let tour of toursData" 
+      [ngStyle]="{'border': tour.price === mostExpensiveTour ? '3px solid green': tour.price === cheapestTour ? '3px solid red' : ''}"
+      [tourInput]="tour" 
+      [maxMinPrice]="[mostExpensiveTour, cheapestTour]" 
+      (outputCardDelete)="deleteCard($event)" 
+      (outputTourAdd)="addTourToBasket($event)" 
+      (outputTourDelete)="deleteTourFromBasket($event)">
+    </app-tour-card>
+  </div>
+
+</ng-template>
+
+<ng-template #basketView>
+  <app-basket [inputBasket]="basket" (openMainViewFlag)="toggleViewFlag($event)"></app-basket>
+</ng-template>
+
+
+
+<!-- [ngStyle]="{'display': basketPreviewFlag ? 'block': 'none'}" -->

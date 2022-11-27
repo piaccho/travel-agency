@@ -1,0 +1,16 @@
+<p>Rate this tour!</p>
+<form [formGroup]="modelForm" (ngSubmit)="onSubmit(modelForm)">
+    <div class="rate">
+        <input formControlName="rating" name="rating" type="radio" id="star5" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input formControlName="rating" name="rating" type="radio" id="star4" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input formControlName="rating" name="rating" type="radio" id="star3" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input formControlName="rating" name="rating" type="radio" id="star2" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input formControlName="rating" name="rating" type="radio" id="star1" value="1" />
+        <label for="star1" title="text">1 star</label>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit your rating</button>
+</form>

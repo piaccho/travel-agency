@@ -1,0 +1,11 @@
+<!-- <p *ngFor="let tour of inputBasket" >{{tour.title}}</p> -->
+<div class="container d-flex flex-column">
+    <p *ngIf="inputBasket.length===0">Basket is empty</p>
+        <p class="item-basket" *ngFor="let tour of inputBasket" >
+            <span>{{tour[0].title}} x {{tour[1]}}</span> 
+            <span>{{tour[1]*tour[0].price}}€</span>
+        </p>
+    <div class="wrapper">
+        <button class="btn btn-primary" (click)="openBasketView()">Open basket</button>
+    </div>
+</div>
