@@ -1,3 +1,3 @@
-# introduction-to-web-applications-project
+# Travel agency project
 
-Travel Agency application project developed as 3-part exercise set during "Introduction to Web Applications" CS AGH UST course 
+Travel agency is a project developed as an assignment of "Introduction to Web Applications" CS AGH UST course 
